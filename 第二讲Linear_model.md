@@ -29,4 +29,5 @@
 `plt.plot(w_list,mse_list)`
 `plt.ylabel('Loss')`
 `plt.xlabel('w')`
+#绘制
 `plt.show() ``
