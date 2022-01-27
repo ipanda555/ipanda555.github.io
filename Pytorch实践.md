@@ -15,7 +15,8 @@ def forward(x):
 
 
 def loss(x, y):
-    return (y_pred_val - y) * (y_pred_val - y)
+    y_pred = forward(x)
+    return (y_pred - y) * (y_pred - y)
 
 
 w_list= []
