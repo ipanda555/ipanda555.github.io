@@ -213,8 +213,9 @@ for epoch in range(100):
 
 
 ```
-
 ## 第八章：数据集加载
+
+```python
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -271,3 +272,5 @@ for epoch in range(100):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+```
+
