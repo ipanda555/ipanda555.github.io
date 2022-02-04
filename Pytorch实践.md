@@ -249,7 +249,7 @@ class Model(nn.Module):
         self.linear1 = nn.Linear(8, 6)
         self.linear2 = nn.Linear(6, 4)
         self.linear3 = nn.Linear(4, 1)
-        self.sigmoid = nn.Sigmoid()  # 无参数
+        self.sigmoid = nn.Sigmoid()  # 无参数;
 
     def forward(self, x):
         x = self.sigmoid(self.linear1(x))
