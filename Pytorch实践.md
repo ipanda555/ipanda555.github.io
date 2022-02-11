@@ -118,7 +118,7 @@ import torch.nn as nn
 # init是构造函数，初始化时使用
 # forward是前馈时执行的计算
 # 为何没有backword?是因为在Module里自动完成
-# Linear继承自Module，可以自动进行反向传播
+# Linear继承自Module，可以自动进行反向传播。
 
 class LinearModle(nn.Module):
     def __init__(self):
