@@ -123,7 +123,7 @@ import torch.nn as nn
 class LinearModle(nn.Module):
     def __init__(self):
         super(LinearModle, self).__init__()  # 调用父类的构造
-        self.linear = nn.Linear(1, 1)  # nn.Linear是pytorch里面的一个类，加括号是构造对象,包含了权重和偏置
+        self.linear = nn.Linear(1, 1)  # nn.Linear是pytorch里面的一个类，加括号是构造对象,包含了权重和偏置。
 
     def forward(self, x):
         y_pred = self.linear(x)  # 对象后面加括号，意味着实现一个可调用的对象
