@@ -116,7 +116,7 @@ import torch.nn as nn
 # 构造模型的时候把其构造为一个类，继承于Module
 # Modulel里面有很多方法
 # init是构造函数，初始化时使用
-# forward是前馈时执行的计算
+# forward是前馈时执行的计算。
 # 为何没有backword?是因为在Module里自动完成。
 # Linear继承自Module，可以自动进行反向传播。
 
