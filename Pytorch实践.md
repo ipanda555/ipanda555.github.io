@@ -113,7 +113,7 @@ print('predict (after training)', 4, forward(4).item())
 import torch.nn as nn
 
 
-# 构造模型的时候把其构造为一个类，继承于Module
+# 构造模型的时候把其构造为一个类，继承于Module。
 # Modulel里面有很多方法。
 # init是构造函数，初始化时使用。
 # forward是前馈时执行的计算。
