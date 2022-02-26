@@ -126,7 +126,7 @@ class LinearModle(nn.Module):
         self.linear = nn.Linear(1, 1)  # nn.Linear是pytorch里面的一个类，加括号是构造对象,包含了权重和偏置。
 
     def forward(self, x):
-        y_pred = self.linear(x)  # 对象后面加括号，意味着实现一个可调用的对象。
+        y_pred = self.linear(x)  # 对象后面加括号，意味着实现一个可调用的对象
         return y_pred
 
 
